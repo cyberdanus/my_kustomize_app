@@ -5,3 +5,6 @@ namespace: stage
 
 namePrefix:
   stage-
+
+patches:
+ - ingress.yaml
