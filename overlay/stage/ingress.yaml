@@ -12,7 +12,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /stage/
+      - path: /stage/(.*)
         pathType: Prefix
         backend:
           service:
