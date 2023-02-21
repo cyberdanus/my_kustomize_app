@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web
-  namespace: ingress-nginx
+  namespace: prod
   labels:
     app: web
 spec:
@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: web
-        namespace: ingress-nginx
+        namespace: prod
     spec:
       containers:
       - name: my-app
