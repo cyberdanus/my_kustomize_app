@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  namespace: ingress-nginx
+  namespace: prod
   name: web-app-ingress
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
