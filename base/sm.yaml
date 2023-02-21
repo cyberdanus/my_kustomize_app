@@ -2,7 +2,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   labels:
-    name: web
+    name: web-v1
   name: web
   namespace: prod
 spec:
